@@ -58,6 +58,7 @@
         aa.appendChild(span);
 
     	var down = document.getElementsByClassName('down')[0];
+        down.insertBefore(document.createElement("br"),down.children[0]);
         down.insertBefore(aa,down.children[0]);
     };
 
